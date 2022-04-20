@@ -55,7 +55,7 @@ jobs:
         uses: php-actions/composer@v6
         with:
           php_version: '8.0'
-          version: '2.3'
+          version: 'latest'
           args: --optimize-autoloader
 
       - name: Build PHP assets
